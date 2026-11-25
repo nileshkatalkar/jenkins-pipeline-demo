@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return jsonify(
         application="Nilesh's DevOps Automation Platform",
-        message="Welcome! Your application has been successfully deployed through CI/CD.",
+        message="Welcome Nilesh! Your application has been successfully deployed through CI/CD.",
         tagline="Build. Test. Deploy. Automate.",
         status="running",
         developer="Nilesh Katalkar"
