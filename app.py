@@ -8,7 +8,7 @@ def home():
     return jsonify(
         application="Nilesh's DevOps Automation Platform",
         message="Welcome Nilesh! Your application has been successfully deployed through CI/CD.",
-        tagline="Build. Test. Deploy. Automate.",
+        tagline="Build. Test. Deploy and Automate.",
         status="running",
         developer="Nilesh Katalkar"
     )
